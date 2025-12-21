@@ -1,0 +1,226 @@
+body {
+    background: #021e02;
+}
+
+.naam-titel {
+    text-align: left;
+}
+
+.pfp {
+    text-align: left;
+}
+
+.content ul li {
+    text-align: left;
+    font-size: auto;
+}
+
+.naam-titel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    color: darkgreen;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar a {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+.navbar a:hover {
+    background: #024902;
+}
+
+.navbar ul {
+    border: none;
+}
+
+.navbar li:nth-child(even) {
+  background-color: darkgreen;
+}
+
+.navbar ul li:hover {
+    background-color: darkgreen;
+}
+
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Ervaring {
+    background-color: #cce7cc;
+    border-width: 2px;
+    border-style:inset;
+    border-radius: 1.5%;
+    width: 80%;
+}
+
+.Opleidingen {
+    
+    background-color: #cce7cc;
+    border-width: 2px;
+    border-style:inset;
+    border-radius: 1.5%;
+    width: 80%;
+}
+
+.pfp img:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.Talen-Lijst {
+    background-color: #cce7cc;
+    border-width: 2px;
+    border-style:inset;
+    border-radius: 1.5%;
+    width: 80%;
+}
+
+h3 {
+    color: #0a420a;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+
+
+ul {
+    padding: 4px;
+    border: solid; border-color: #b9d4b9; border-style: dotted; border-left: none; border-right: none;
+}
+
+ul li {
+    list-style-type: none; ;
+}
+
+li:nth-child(even) {
+  background-color: #c2dfc2;
+}
+
+
+
+.header {
+    max-width: 920px;
+    margin: auto;
+    border-style: solid;
+    border-color: darkgreen;
+    border-bottom: none;
+}
+
+
+.content {
+    text-align: center;
+    background: #fff;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 0;
+    min-height: 100%;
+    border-style: solid;
+    border-color: darkgreen;
+    border-top: none;
+    border-bottom: none;
+    height: auto;
+}
+
+.footer {
+    background-color: #021402;
+    color: #ddecdd;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    border-right: solid darkgreen;
+    border-left: solid darkgreen;
+    border-bottom: solid darkgreen;
+}
+
+.footer a {
+    color: #ddecdd;
+    text-decoration: none;
+    border: solid #052205;
+    border-radius: 10%;
+    background-color: #021d02;
+}
+
+.highlight {
+            background-color: rgb(227, 255, 227); 
+            padding: 2px; 
+            border-radius: 3px; 
+        }
+
+
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+ul li:hover {
+    background-color: #b7d3b7;
+    border-color: #2b3f2b;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+
+    
+}
+
+.navbar {
+    background-color: darkgreen;
+    padding: 1px;
+    position: sticky;
+    top: 0;
+    max-width: 918px;
+    margin: auto;
+    z-index: 1000;
+    border-style: solid;
+    border-color: darkgreen;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: darkgreen;
+
+}
+
